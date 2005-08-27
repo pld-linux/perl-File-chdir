@@ -6,6 +6,7 @@
 %define		pdir	File
 %define		pnam	chdir
 Summary:	File::chdir - a more sensible way to change directories
+Summary(pl):	File::chdir - rozs±dniejszy sposób zmiany katalogów
 Name:		perl-File-chdir
 Version:	0.06
 Release:	1
@@ -21,9 +22,24 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 File::chdir module - a more sensible way to change directories.
 
-Perl's chdir() has the unfortunate problem of being very, very, very global. If any part of your program calls chdir() or if any library you use calls chdir(), it changes the current working directory for the whole program.
+Perl's chdir() has the unfortunate problem of being very, very, very
+global. If any part of your program calls chdir() or if any library
+you use calls chdir(), it changes the current working directory for
+the whole program.
 
-File::chdir gives you an alternative, $CWD and @CWD. These two variables combine all the power of chdir(), File::Spec and Cwd.
+File::chdir gives you an alternative, $CWD and @CWD. These two
+variables combine all the power of chdir(), File::Spec and Cwd.
+
+%description -l pl
+Modu³ File::chdir - rozs±dniejszy sposób zmiany katalogów.
+
+Perlowa funkcja chdir() jest problematyczna, poniewa¿ dzia³a bardzo,
+bardzo, bardzo globalnie. Je¶li dowolna czê¶æ programu lub dowolna
+u¿ywana biblioteka wywo³a chdir(), zmienia siê bie¿±cy katalog dla
+ca³ego programu.
+
+File::chdir daje alternatywê - $CWD i @CWD. Te dwie zmienne ³±cz± ca³±
+potêgê chdir(), File::Spec i Cwd.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
