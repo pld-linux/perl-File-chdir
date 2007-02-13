@@ -6,7 +6,7 @@
 %define		pdir	File
 %define		pnam	chdir
 Summary:	File::chdir - a more sensible way to change directories
-Summary(pl.UTF-8):   File::chdir - rozsądniejszy sposób zmiany katalogów
+Summary(pl.UTF-8):	File::chdir - rozsądniejszy sposób zmiany katalogów
 Name:		perl-File-chdir
 Version:	0.06
 Release:	1
