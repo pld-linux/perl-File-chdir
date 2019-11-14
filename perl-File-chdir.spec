@@ -8,12 +8,12 @@
 Summary:	File::chdir - a more sensible way to change directories
 Summary(pl.UTF-8):	File::chdir - rozsądniejszy sposób zmiany katalogów
 Name:		perl-File-chdir
-Version:	0.1006
+Version:	0.1010
 Release:	1
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/File/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	a09bce5507335de116984c121dbbca24
+# Source0-md5:	aacfafa4a8f13d45be67451e0f9b483e
 URL:		http://search.cpan.org/dist/File-chdir/
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
