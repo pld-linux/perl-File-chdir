@@ -13,7 +13,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/File/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	aacfafa4a8f13d45be67451e0f9b483e
-URL:		http://search.cpan.org/dist/File-chdir/
+URL:		https://metacpan.org/release/File-chdir
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildArch:	noarch
@@ -64,4 +64,4 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc Changes
 %{perl_vendorlib}/File/chdir.pm
-%{_mandir}/man3/*
+%{_mandir}/man3/File::chdir.3pm*
