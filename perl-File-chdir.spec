@@ -1,19 +1,19 @@
 #
 # Conditional build:
-%bcond_without	tests	# do not perform "make test"
+%bcond_without	tests	# unit tests
 #
 %define		pdir	File
 %define		pnam	chdir
 Summary:	File::chdir - a more sensible way to change directories
 Summary(pl.UTF-8):	File::chdir - rozsądniejszy sposób zmiany katalogów
 Name:		perl-File-chdir
-Version:	0.1010
+Version:	0.1011
 Release:	1
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/File/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	aacfafa4a8f13d45be67451e0f9b483e
-URL:		https://metacpan.org/release/File-chdir
+Source0:	https://www.cpan.org/modules/by-module/File/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	932090f6c5f602301ae66c259de23ebb
+URL:		https://metacpan.org/dist/File-chdir
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildRequires:	rpmbuild(macros) >= 1.745
